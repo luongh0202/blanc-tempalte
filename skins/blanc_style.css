@@ -1839,3 +1839,26 @@ li.ng-scope span.c1 {
     text-align: center;
     font-size: 10px;
 }
+.title_page_category{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -76px;
+    z-index: 999;
+}
+.wp_title_page_category {
+    display: flex;
+    justify-content: space-between;
+}
+.wp_title_page_category_left {
+    font-size: 100px;
+    line-height: 136.6px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.page_left_category{
+    position: relative;
+    transform: translateX(0);
+}
