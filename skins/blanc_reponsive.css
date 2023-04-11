@@ -617,9 +617,6 @@
         left: 15px;
         right: inherit;
     }
-    #header_home{
-        overflow: hidden;
-    }
     .bottom_ft{
         display: none;
     }
@@ -916,6 +913,12 @@
     }
     .right_title_tab_sec_product{
         overflow-x: auto;
+    }
+    .background_header{
+        overflow: hidden;
+    }
+    #main_home{
+        overflow-x: hidden;
     }
 }
 @media (max-width: 406px){

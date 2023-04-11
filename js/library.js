@@ -49,9 +49,9 @@ $(document).ready(function ($) {
 $(window).scroll(function () {
   if ($(window).width() > 911) {
     if ($(this).scrollTop() > 80) {
-      $('.header_page').addClass('nav-container-fixed animated fadeInDown');
+      $('#header_home').addClass('nav-container-fixed animated fadeInDown');
     } else {
-      $('.header_page').removeClass('nav-container-fixed animated fadeInDown');
+      $('#header_home').removeClass('nav-container-fixed animated fadeInDown');
     }
    }
    }); 

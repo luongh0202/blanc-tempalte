@@ -194,6 +194,11 @@ background: #fff;}
     border: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.nav-container-fixed .header_top{
+    top: 0;
+    background: #3D2C28;
+    padding: 15px 0;
+}
 .swiper-button-next, .swiper-button-prev{
     width: 40px;
     height: 40px;
@@ -804,7 +809,7 @@ li.ng-scope span.c1 {
 }
 .box_img_slider_decor{
     width: 40%;
-    padding-top: 240px;
+    padding-top: 73px;
 }
 .slider_bisd{
     overflow: hidden;
@@ -835,7 +840,7 @@ li.ng-scope span.c1 {
     height: calc(100% + 20px);
     background-image: url(../images/Rectangle3.png);
     position: absolute;
-    top: 240px;
+    top: 73px;
     left: 0px;
     z-index: 0;
     background-repeat: no-repeat;
