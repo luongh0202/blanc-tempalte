@@ -1000,6 +1000,7 @@ li.ng-scope span.c1 {
     width: 400px;
     margin-right: 10px;
     margin-bottom: 10px;
+    background: #F5F5F5;
 }
 .img_category_home{
     position: absolute;
@@ -1012,6 +1013,7 @@ li.ng-scope span.c1 {
     width: 620px;
     margin-right: 10px;
     margin-bottom: 10px;
+    background: #FDFAF4;
 }
 .box_category_home_2 .img_category_home{
     bottom: 6px;
@@ -1029,6 +1031,7 @@ li.ng-scope span.c1 {
 .box_category_home_4{
     width: 520px;
     margin-right: 10px;
+    background: #FDFAF4;
 }
 .box_category_home_4 .content_category_home, .box_category_home_5 .content_category_home, .box_category_home_6 .content_category_home{
     text-align: right;
@@ -1050,6 +1053,7 @@ li.ng-scope span.c1 {
 }
 .box_category_home_6{
     width: 520px;
+    background: #FDFAF4;
 }
 .box_category_home_6 .img_category_home{
     bottom: 16px;
@@ -1114,6 +1118,7 @@ li.ng-scope span.c1 {
   border-radius: 50px;
   font-weight: 700;
   transition: all .5s;
+  display: inline-block;
 }
 .content_sec_draw a:hover{
     background: #C09972;
@@ -1525,6 +1530,9 @@ li.ng-scope span.c1 {
     display: flex;
     margin-bottom: 30px;
 }
+.item_news_small:nth-child(2n+2) .content_item_news_small h4{
+    color: #B18979 !important;
+}
 .img_item_news_small{
     width: 35%;
 }
@@ -1661,6 +1669,7 @@ li.ng-scope span.c1 {
     background-image: url(../images/Group166.png);
     background-repeat: no-repeat;
     padding-top: 34px;
+    height: 386px;
 }
 .left_sec_contact h3{
     color: #fff;
@@ -1769,4 +1778,22 @@ li.ng-scope span.c1 {
 .input_newsletter button:hover{
     background: #fff;
     color: #232734;
+}
+.btn_blog_view{
+    text-align: center;
+}
+.btn_blog_view a{
+    display: none;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    padding: 9px 37px;
+    background: #B18979;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 50px;
+}
+.btn_blog_view a i{
+    margin-left: 5px;
 }

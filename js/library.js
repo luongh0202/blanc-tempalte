@@ -145,7 +145,7 @@ var swiper = new Swiper(".slider_review", {
   breakpoints: {
     767: {
       slidesPerView: 1,
-      spaceBetween: 28,
+      spaceBetween: 20,
     },
     991: {
       slidesPerView: 3,
@@ -160,11 +160,10 @@ var swiper = new Swiper(".slider_moment", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  loop:true,
   breakpoints: {
     767: {
-      slidesPerView: 1,
-      spaceBetween: 28,
+      slidesPerView: 2,
+      spaceBetween: 9,
     },
     991: {
       slidesPerView: 3,
