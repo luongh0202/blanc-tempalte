@@ -86,16 +86,17 @@ p{
 /* css scroll */
 *::-webkit-scrollbar {
   width: 0px;
+  height: 5px;
 }
 ::-webkit-scrollbar-track {
   background: #f1f1f1; 
 }
 ::-webkit-scrollbar-thumb {
-  background: #865B07;
+  background: #B18979;
   width: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #6a6a6a; 
+  background: #B18979; 
 } 
 
 @keyframes pulse-wave {
@@ -436,16 +437,21 @@ span.bar {
 
                 .mobile-main-menu .la-scroll-fix-infor-user .la-nav-menu-items .la-nav-list-items li a {
                     display: block;
-                    color: #000;
+                    color: #232734;
                     font-size: 14px;
                     width: 100%;
                     height: 100%;
                     padding: 15px 15px;
                     position: relative;
-                    font-weight: 600;
+                    font-weight: 700;
                     color: #3D2C28;
+                    text-transform: uppercase;
                 }
-
+.ng-has-child2 a{
+    text-transform: inherit !important;
+    color: #4F525D !important;
+    border-bottom: 1px solid #E4E4E4;
+}
 li.ng-scope span.c1 {
     text-transform: uppercase;
     font-size: 13px;
@@ -1189,6 +1195,9 @@ li.ng-scope span.c1 {
 }
 .nav-item img{
     margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
 }
 .list_tab_product{
     padding: 0 60px;
@@ -1796,4 +1805,37 @@ li.ng-scope span.c1 {
 }
 .btn_blog_view a i{
     margin-left: 5px;
+}
+.user_and_cart_mobie{
+    position: relative;
+    z-index: 999;
+    padding: 0 15px;
+    margin-bottom: 46px;
+}
+.user_and_cart_mobie .regis_mobie, .user_and_cart_mobie .login_mobie{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 8px;
+    color: #232734;
+    border: 1px solid #232734;
+    padding: 0 20px;
+    border-radius: 34px;
+    height: 34px;
+    line-height: 34px;
+}
+.login_mobie{
+    background: #B18979;
+    border: 1px solid #B18979 !important;
+    color: #fff !important;
+}
+.cart_mobie{
+    display: inline-block;
+    color: #fff;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 34px;
+    background: #B18979;
+    text-align: center;
+    font-size: 10px;
 }

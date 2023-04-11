@@ -518,7 +518,9 @@
         margin-bottom: 20px;
         line-height: 30px;
     }
-
+    .body{
+        overflow-x: hidden;
+    }
 }
 @media (max-width: 767px){
     .search_and_action_top_header{
@@ -911,6 +913,9 @@
     }
     .input_newsletter{
         width: 100%;
+    }
+    .right_title_tab_sec_product{
+        overflow-x: auto;
     }
 }
 @media (max-width: 406px){
