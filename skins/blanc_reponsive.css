@@ -169,6 +169,12 @@
     .menu_header ul li a {
         font-size: 12px;
     }
+    .right_wp_main_category{
+        padding-left: 30px;
+    }
+    .list_product_page{
+        --spacing: 26px;
+    }
 }
 @media (max-width: 1200px){
     .menu_header ul li a{
@@ -520,6 +526,67 @@
     }
     .body{
         overflow-x: hidden;
+    }
+    .bg_breadcrumb > img {
+        height: 350px;
+    }
+    .wp_title_page_category_right{
+        text-align: right;
+    }
+    .wp_title_page_category_right img{
+        max-width: 70%;
+    }
+    .title_page_category{
+        bottom: -40px;
+    }
+    .wp_title_page_category_left{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .left_hmpc h3{
+        font-size: 30px;
+    line-height: 40.64px;
+    }
+    .left_hmpc p{
+        font-size: 16px;
+    }
+    .right_hmpc .nav-pills .nav-link{
+        font-size: 16px;
+    }
+    .left_wp_main_category {
+        width: 250px;
+    }
+    .page_left_category .la-scroll-fix-infor-user .ng-has-child1 a{
+        font-size: 16px !important;
+    }
+    .page_left_category .la-scroll-fix-infor-user .la-nav-menu-items .la-nav-list-items .ng-has-child1 a i{
+        font-size: 14px;
+    }
+    .page_left_category .la-scroll-fix-infor-user .ng-has-child2 a{
+        font-size: 14px;
+    }
+    .page_left_category .la-scroll-fix-infor-user .la-nav-menu-items .la-nav-list-items .ng-has-child2 a i{
+        font-size: 10px;
+    }
+    .filter-item label{
+        font-size: 14px;
+    }
+    .list_product_page{
+        --columns: 2;
+    }
+
+}
+@media (max-width: 800px){
+    .header_tab_product_page h3{
+        font-size: 18px;
+    }
+    .sort_product label{
+        font-size: 14px;
+    }
+    .sort_product button{
+        min-width: 160px;
+        height: 35px;
+        font-size: 12px;
     }
 }
 @media (max-width: 767px){
@@ -919,6 +986,120 @@
     }
     #main_home{
         overflow-x: hidden;
+    }
+    .background_header > img {
+        height: 300px;
+    }
+    .wp_title_page_category{
+        flex-wrap: wrap;
+    }
+    .wp_title_page_category_left{
+        width: 100%;
+        text-align: center;
+    }
+    .bg_breadcrumb{
+        overflow: inherit !important;
+    }
+    .wp_title_page_category_right img{
+        max-width: 100%;
+    }
+    .wp_title_page_category_left{
+        font-size: 40px;
+        line-height: 54.64px;
+    }
+    .header_main_page_category{
+        flex-wrap: wrap;
+    }
+    .right_hmpc .nav{
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    .right_hmpc{
+        overflow-x: auto;
+    }
+    .main_page_category {
+        padding-top: 60px;
+    }
+    .left_hmpc{
+        margin-bottom: 32px;
+    }
+    .left_hmpc h3{
+        font-size: 40px;
+        line-height: 54.64px;
+    }
+    .left_hmpc p{
+        font-size: 20px;
+        line-height: 27.32px;
+    }
+    .right_hmpc .nav-pills .nav-link {
+        font-size: 18px;
+    }
+    .btn_drop_filter{
+        display: block;
+    }
+    .left_hmpc{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .btn_drop_filter button{
+        background: transparent;
+        border: 1px solid #4F525D;
+        color: #232734;
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.86px;
+        border-radius: 30px;
+        outline: 0;
+    }
+    .left_wp_main_category {
+        width: 350px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #fff;
+        z-index: 9999;
+        padding: 30px;
+        overflow-y: auto;
+        height: 100%;
+        opacity: 0;
+        transform: translateX(100%);
+        visibility: hidden;
+        transition: all .5s;
+    }
+    .left_wp_main_category.active{
+        opacity: 1;
+        transform: translateX(0);
+        visibility: visible;
+    }
+    .right_tfpp{
+        display: none;
+    }
+    .btn_close_nav_mobie button{
+        display: block;
+    }
+    .right_wp_main_category{
+        width: 100%;
+        padding-left: 0;
+    }
+    .header_tab_product_page{
+        display: none;
+    }
+    .mobile-main-menu.active{
+        width: 100%;
+    }
+    .btn_action_nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+@media (max-width: 350px){
+    .left_wp_main_category{
+        width: 100%;
     }
 }
 @media (max-width: 406px){

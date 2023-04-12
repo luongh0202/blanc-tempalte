@@ -171,3 +171,28 @@ var swiper = new Swiper(".slider_moment", {
     },
   },
 });
+$(".right_tfpp button").click(function(){
+  $(".page_left_category").slideToggle();
+  $(".right_tfpp").toggleClass("active");
+});
+$(".sort_product button").click(function(){
+  $(".list_sort_product").slideToggle();
+});
+// nav product js
+$(document).ready(function ($) {
+    $('.btn_drop_filter button').click(function() {
+        $(".left_wp_main_category").addClass('active');
+        $(".menu_toggle").addClass('active');
+        $(".body").addClass('hidden_over');
+    });
+    $('.btn_close_nav_mobie button').click(function() {
+        $(".left_wp_main_category").removeClass('active');
+        $(".menu_toggle").removeClass('active');
+        $(".body").removeClass('hidden_over');
+    });
+    $('.menu_toggle').click(function() {
+        $(".left_wp_main_category").removeClass('active');
+        $(".menu_toggle").removeClass('active');
+        $(".body").removeClass('hidden_over');
+    });
+});
