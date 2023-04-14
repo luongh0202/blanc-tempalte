@@ -1096,6 +1096,9 @@
         display: flex;
         justify-content: flex-end;
     }
+    .btn_close_nav_mobie{
+        display: block;
+    }
 }
 @media (max-width: 350px){
     .left_wp_main_category{

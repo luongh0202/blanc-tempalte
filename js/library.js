@@ -196,3 +196,25 @@ $(document).ready(function ($) {
         $(".body").removeClass('hidden_over');
     });
 });
+$(document).ready(function(){
+    var swiper = new Swiper(".pro_small", {
+        spaceBetween: 10,
+        slidesPerView: 5,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+        allowSlideNext:false,
+        allowSlidePrev: false,
+      });
+      var swiper2 = new Swiper(".pro_big", {
+        spaceBetween: 13,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+        thumbs: {
+          swiper: swiper,
+        },
+    });
+});
