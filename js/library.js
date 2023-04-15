@@ -218,3 +218,52 @@ $(document).ready(function(){
         },
     });
 });
+$(".qtybutton").on("click", function() {
+        var $button = $(this);
+        var oldValue = $button.parent().find("input").val();
+        if ($button.text() == "+") {
+            var newVal = parseFloat(oldValue) + 1;
+        } else {
+            // Don't allow decrementing below zero
+            if (oldValue > 0) {
+                var newVal = parseFloat(oldValue) - 1;
+            } else {
+                newVal = 0;
+            }
+        }
+        $button.parent().find("input").val(newVal);
+    });
+var swiper = new Swiper(".slider_products_related", {
+  slidesPerView: 4,
+  spaceBetween: 54,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  loop:true,
+  breakpoints: {
+    767: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    991: {
+      slidesPerView: 2,
+       spaceBetween: 10,
+    },
+  },
+});
+var swiper = new Swiper(".list_img_des", {
+  slidesPerView: 3,
+  spaceBetween: 16,
+  loop:true,
+  breakpoints: {
+    767: {
+      slidesPerView: 1,
+      spaceBetween: 12,
+    },
+    991: {
+      slidesPerView: 2,
+       spaceBetween: 10,
+    },
+  },
+});
