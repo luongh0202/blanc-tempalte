@@ -634,7 +634,22 @@
     .wp_sec_products_related{
         padding: 0;
     }
-
+    #modal_catalog .modal-dialog{
+        top: 0px;
+        margin-top: 30px;
+        transform: translateX(-50%) !important;
+        max-width: 92%;
+    }
+    .list_catalog ul li img{
+        width: 70px;
+        height: 70px;
+    }
+    #modal_catalog .modal-body{
+        padding: 20px 30px;
+    }
+    #modal_catalog .modal-header{
+        padding: 20px 30px;
+    }
 }
 @media (max-width: 800px){
     .header_tab_product_page h3{

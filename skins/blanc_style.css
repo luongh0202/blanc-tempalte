@@ -2636,3 +2636,63 @@ li.ng-scope span.c1 {
 .header-top-page-child #trigger-mobile{
     margin-top: 29px;
 }
+#modal_catalog .modal-dialog{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    margin: 0;
+    max-width: 800px;
+}
+#modal_catalog .modal-header{
+    border-bottom: none;
+    padding: 20px 60px;
+    padding-right: 20px;
+}
+#modal_catalog .modal-title{
+    font-size: 24px;
+    line-height: 32.78px;
+    color: #232734;
+    font-weight: 700;
+}
+.list_catalog h3{
+    font-size: 20px;
+     font-weight: 700;
+     color: #232734;
+     margin-bottom: 15px;
+}
+#modal_catalog .modal-body{
+    padding: 20px 60px;
+}
+.modal-header .close{
+    padding: 0.5rem 1rem;
+    font-size: 40px;
+}
+.list_catalog ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.list_catalog ul li{
+    margin-right: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.list_catalog ul li img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+.list_catalog ul li p{
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #232734;
+}
+.list_catalog ul{
+    margin-bottom: 30px;
+}
+.list_catalog h4{
+    font-size: 20px;
+     font-weight: 700;
+     color: #232734;
+     margin-bottom: 15px;
+}
