@@ -103,8 +103,8 @@ var swiper = new Swiper(".slider_bisd", {
   });
 
 var swiper = new Swiper(".list_tab_product", {
-  slidesPerView: 3,
-  spaceBetween: 67,
+  slidesPerView: 1,
+  spaceBetween: 15,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -112,12 +112,12 @@ var swiper = new Swiper(".list_tab_product", {
   loop:true,
   breakpoints: {
     767: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 18,
     },
     991: {
       slidesPerView: 3,
-       spaceBetween: 10,
+       spaceBetween: 70,
     },
   },
 });
@@ -135,8 +135,8 @@ var swiper = new Swiper(".slider_img_product", {
       },
   });
 var swiper = new Swiper(".slider_review", {
-  slidesPerView: 4,
-  spaceBetween: 16,
+  slidesPerView: 1,
+  spaceBetween: 20,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -144,12 +144,16 @@ var swiper = new Swiper(".slider_review", {
   loop:true,
   breakpoints: {
     767: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     991: {
       slidesPerView: 3,
-       spaceBetween: 10,
+       spaceBetween: 16,
+    },
+    1200: {
+      slidesPerView: 4,
+       spaceBetween: 16,
     },
   },
 });
@@ -166,8 +170,8 @@ var swiper = new Swiper(".slider_moment", {
       spaceBetween: 9,
     },
     991: {
-      slidesPerView: 3,
-       spaceBetween: 20,
+      slidesPerView: 5,
+       spaceBetween: 10,
     },
   },
 });

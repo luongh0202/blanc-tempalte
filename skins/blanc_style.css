@@ -680,10 +680,10 @@ li.ng-scope span.c1 {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-}
+}/*
 .wp_content_header{
     width: 60%;
-}
+}*/
 .wp_content_header h1{
     font-size: 54px;
     color: #fff;
@@ -807,10 +807,10 @@ li.ng-scope span.c1 {
     width: 100%;
     z-index: 8;
 }
-.box_img_slider_decor{
+/*.box_img_slider_decor{
     width: 40%;
     padding-top: 73px;
-}
+}*/
 .slider_bisd{
     overflow: hidden;
     padding-left: 21px;
@@ -819,9 +819,7 @@ li.ng-scope span.c1 {
     width: auto;
 }
 .box_img_slider_decor .swiper-container-horizontal > .swiper-pagination-bullets{
-    width: 496px;
     position: absolute;
-    left: 21px;
 }
 .box_img_slider_decor .swiper-pagination-bullet{
     background: #fff;
@@ -833,6 +831,7 @@ li.ng-scope span.c1 {
 .box_img_slider_decor{
     position: relative;
     z-index: 99;
+    max-width: 500px;
 }
 .box_img_slider_decor:before{
     content: "";
@@ -998,7 +997,7 @@ li.ng-scope span.c1 {
     line-height: 49.18px;
     margin-bottom: 3px;
 }
-.content_category_home a{
+.content_category_home span{
     color: #4F525D;
     font-weight: 500;
     font-size: 18px;
@@ -1285,17 +1284,22 @@ li.ng-scope span.c1 {
     align-items: center;
     justify-content: center;
 }
-.list_color span{
+.list_color a{
     display: inline-block;
     width: 28px;
     height: 28px;
     border-radius: 28px;
     border: 1px solid #E0E0E0;
     background: #4F525D;
+}
+.list_color ul{
+    display: flex;
+}
+.list_color ul li{
     margin: 0 5px;
 }
 .list_color .bg_yl{
-    background: #ECE6D8;
+    background: #ECE6D8;width: ;
 }
 .list_color .bg_wh{
     background: #FFFFFF;
@@ -1426,6 +1430,9 @@ li.ng-scope span.c1 {
     border-radius: 4px;
     margin-bottom: 14px;
 }
+.img_box_review img{
+    width: 100%;
+}
 .info_reviewer{
     display: flex;
     align-items: center;
@@ -1545,7 +1552,7 @@ li.ng-scope span.c1 {
     margin-bottom: 30px;
 }
 .item_news_small:nth-child(2n+2) .content_item_news_small h4{
-    color: #B18979 !important;
+    color: #969385 !important;
 }
 .img_item_news_small{
     width: 35%;
@@ -1558,7 +1565,7 @@ li.ng-scope span.c1 {
     padding-left: 15px;
 }
 .content_item_news_small h4{
-    color: #969385;
+    color: #B18979;
     font-weight: 700;
     margin-bottom: 0;
     line-height: 24.59px;
@@ -1807,6 +1814,9 @@ li.ng-scope span.c1 {
     text-transform: uppercase;
     font-size: 16px;
     border-radius: 50px;
+}
+.btn_blog_view a:hover{
+    background: #C09972;
 }
 .btn_blog_view a i{
     margin-left: 5px;
@@ -2867,4 +2877,90 @@ li.ng-scope span.c1 {
     right: 20px;
     color: #fff;
     z-index: 9;
+}
+.slider_bisd .swiper-wrapper{
+    max-width: 500px;
+}
+.box_img_slider_decor{
+    position: absolute;
+    top: 138px;
+    right: 17%;
+    z-index: 8;
+}
+.box_img_slider_decor:before{
+    top: 0;
+    background-size: contain;
+}
+.img_smal_decor{
+   right: 10%;
+   top: 126px;
+}
+.wp_content_header{
+    position: absolute;
+    top: 247px;
+    left: 12.4%;
+    z-index: 999;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after, .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    display: none;
+}
+.img_product {
+    overflow: hidden;
+    position: relative;
+    height: auto !important;
+    width: 100%;
+    padding-top: 100%;
+}
+.img_product img {
+    object-fit: cover;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: transform .4s;
+}
+.img_product .secondary-image {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.8s ease 0s;
+}
+.img_product:hover .secondary-image {
+    opacity: 1;
+}
+.img_box_review {
+    overflow: hidden;
+    position: relative;
+    height: auto !important;
+    width: 100%;
+    padding-top: 100%;
+}
+.img_box_review img {
+    object-fit: cover;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: transform .4s;
+}
+.box_blog_big{
+    width: 50%;
+    float: left;
+    padding-right: 28px;
+}
+.item_news_small{
+    width: 50%;
+    float: left;
+}
+.clr{
+    clear: both;
 }
