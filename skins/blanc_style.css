@@ -595,22 +595,73 @@ li.ng-scope span.c1 {
     position: absolute;
     z-index: 10;
 }
-.menu_header ul{
+.menu_header > ul{
     display: flex;
 }
-.menu_header ul li{
+.menu_header > ul > li{
     padding: 0 25px;
+    position: relative;
 }
-.menu_header ul li a{
+.menu_header > ul > li > a{
     color: #BF9F83;
     font-size: 16px;
     font-weight: 700;
 }
-.menu_header ul li a:hover{
+.menu_header > ul > li > a:hover{
     color: #fff;
 }
-.menu_header ul li.active a{
+.menu_header > ul > li.active > a{
     color: #FFFFFF;
+}
+.drop_menu_header{
+    background: #fff;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 999;
+    width: 200px;
+    padding: 20px 18px;
+    border-radius: 0 0 6px 6px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all .5s;
+    visibility: hidden;
+}
+.menu_header > ul > li:hover .drop_menu_header{
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+.drop_menu_header::before, .drop_menu_header::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 18%;
+    right: auto;
+}
+.drop_menu_header::before {
+    top: -10px;
+    border-bottom: 11px solid #fff;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+}
+.drop_menu_header::after {
+    top: -10px;
+    border-bottom: 11px solid #fff;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+}
+.drop_menu_header ul li a{
+    padding: 7px 0;
+    color: #4F525D;
+    font-size: 16px;
+    line-height: 19.12px;
+    font-weight: 500;
+    display: block;
+}
+.drop_menu_header ul li a:hover{
+    color: #B18979;
 }
 .search_and_action_top_header{
     display: flex;
@@ -837,7 +888,7 @@ li.ng-scope span.c1 {
     content: "";
     width:  calc(100% + 20px);
     height: calc(100% + 20px);
-    background-image: url(../images/Rectangle3.png);
+    background-image: url(img/Rectangle3.png);
     position: absolute;
     top: 73px;
     left: 0px;
@@ -848,7 +899,7 @@ li.ng-scope span.c1 {
     content: "";
     width: 109px;
     height: 109px;
-    background-image: url(../images/Vector_img.png);
+    background-image: url(img/Vector_img.png);
     position: absolute;
     top: calc(100% - 45px);
     left: -43px;
@@ -1139,7 +1190,7 @@ li.ng-scope span.c1 {
 .content_sec_draw:before{
     position: absolute;
     content: "";
-    background-image: url(../images/Vector_draw.png);
+    background-image: url(img/Vector_draw.png);
     width: 46px;
     height: 46px;
     right: -20px;
@@ -1612,7 +1663,7 @@ li.ng-scope span.c1 {
 .box_flow_Insta{
     width: 100%;
     height: 100%;
-    background-image: url(../images/Group183.png);
+    background-image: url(img/Group183.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #FFFBF6;
@@ -1687,7 +1738,7 @@ li.ng-scope span.c1 {
     height: 100%;
 }
 .sec_contact{
-    background-image: url(../images/Group166.png);
+    background-image: url(img/Group166.png);
     background-repeat: no-repeat;
     padding-top: 34px;
     height: 386px;
@@ -2557,7 +2608,7 @@ li.ng-scope span.c1 {
     margin-top: 16px;
     padding: 20px 23px;
     background: linear-gradient(180deg, #EFE9E5 -32.67%, rgba(255, 244, 235, 0) 100%);
-    background-image: url(../images/Mask_group.png);
+    background-image: url(img/Mask_group.png);
     display: flex;
     align-items: center;
 }
@@ -2963,4 +3014,12 @@ li.ng-scope span.c1 {
 }
 .clr{
     clear: both;
+}
+.title_drop{
+    display: block !important;
+    float: inherit !important;
+    width: 100% !important;
+}
+.title_drop.active .fa-angle-up:before{
+    content: "\f107";
 }
