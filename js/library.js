@@ -125,10 +125,6 @@ var swiper = new Swiper(".slider_img_product", {
     effect: "fade",
     spaceBetween: 10,
     loop: true,
-    // autoplay: {
-    //     delay: 8000,
-    //     disableOnInteraction: false,
-    // },
     pagination: {
         el: ".swiper-pagination",
         clickable: true,

@@ -1342,6 +1342,10 @@ li.ng-scope span.c1 {
     border-radius: 28px;
     border: 1px solid #E0E0E0;
     background: #4F525D;
+    overflow: hidden;
+}
+.list_color a img{
+    display: block;
 }
 .list_color ul{
     display: flex;
@@ -2198,6 +2202,16 @@ li.ng-scope span.c1 {
 .list_sort_product ul li a:hover{
     color: #fff;
     background: #B18979;
+}
+.sort_product select{
+    min-width: 220px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid #D4C6BB;
+    color: #4F525D;
+    background: transparent;
+    text-align: left;
+    padding: 0 12px;
 }
 .list_product_page{
     display: flex;
