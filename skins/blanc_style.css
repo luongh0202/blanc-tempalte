@@ -1573,6 +1573,8 @@ li.ng-scope span.c1 {
 }
 .img_blog_big img{
     width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 .img_blog_big{
     margin-bottom: 19px;
@@ -1614,6 +1616,8 @@ li.ng-scope span.c1 {
 }
 .img_item_news_small img{
     width: 100%;
+    height: 152px;
+    object-fit: cover;
 }
 .content_item_news_small{
     width: 65%;
