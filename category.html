@@ -337,11 +337,13 @@
                                                 <li><a href="#">Giá giảm dần</a></li>
                                             </ul>
                                         </div> -->
-                                        <select>
-                                            <option><a href="#">Giá từ cao đến thấp</a></option>
-                                                <option><a href="#">Giá tăng dần</a></option>
-                                                <option><a href="#">Từ A - Z</a></option>
-                                                <option><a href="#">Giá giảm dần</a></option>
+                                        <select id="sortby">
+                                            <option value="0">-- Chọn --</option>
+                                            <option value="alpha-asc">Tên A-Z</option>
+                                            <option value="alpha-desc">Tên Z-A</option>
+                                            <option value="created-desc">Hàng mới</option>
+                                            <option value="price-asc">Giá thấp đến cao</option>
+                                            <option value="price-desc">Giá cao xuống thấp</option>
                                         </select>
                                     </div>
                                 </div>
