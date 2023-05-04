@@ -1036,6 +1036,7 @@ li.ng-scope span.c1 {
     position: relative;
     padding: 26px 33px;
     height: 300px;
+    overflow: hidden;
 }
 .content_category_home{
     position: relative;
@@ -3040,4 +3041,13 @@ li.ng-scope span.c1 {
 }
 .title_drop.active .fa-angle-up:before{
     content: "\f107";
+}
+.img_category_home img{
+    transition: all .5s
+}
+.box_category_home:hover .img_category_home img{
+    transform: scale(1.1);
+}
+.list_tab_product .swiper-button-next, .list_tab_product .swiper-button-prev{
+    top: 35% !important;
 }

@@ -201,10 +201,7 @@ $(document).ready(function(){
         spaceBetween: 10,
         slidesPerView: 5,
         freeMode: true,
-        watchSlidesVisibility: true,
-        watchSlidesProgress: true,
-        allowSlideNext:false,
-        allowSlidePrev: false,
+        loop: true,
       });
       var swiper2 = new Swiper(".pro_big", {
         spaceBetween: 13,
