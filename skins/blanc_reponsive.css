@@ -6,9 +6,9 @@
     }
 }
 @media (min-width: 1200px){
-    .background_header > img{
+    /*.background_header > img{
         min-height: 500px;
-    }
+    }*/
 }
 @media (min-width: 1800px) and (max-width: 1850px){
     /*.img_smal_decor{
@@ -288,9 +288,9 @@
     }
 }
 @media (max-width: 1199px){
-    .background_header > img {
+    /*.background_header > img {
         min-height: 500px;
-    }
+    }*/
     .wp_content_header h1 {
         font-size: 40px;
         line-height: 53.76px;
@@ -323,9 +323,9 @@
     .sec_category_home {
         padding-top: 100px;
     }
-    .background_header > img {
+    /*.background_header > img {
         min-height: 500px;
-    }
+    }*/
 }
 @media (max-width: 850px){
     .item_slider_bisd {
@@ -370,9 +370,9 @@
     .btn_khampha, .btn_xemvideo{
         width: 130px;
     }
-    .background_header > img{
+    /*.background_header > img{
         min-height: 300px;
-    }
+    }*/
     .item_slider_bisd {
         max-width: 260px;
     }
@@ -586,17 +586,14 @@
     .body{
         overflow-x: hidden;
     }
-    .bg_breadcrumb > img {
+    /*.bg_breadcrumb > img {
         height: 350px;
-    }
+    }*/
     .wp_title_page_category_right{
         text-align: right;
     }
     .wp_title_page_category_right img{
         max-width: 70%;
-    }
-    .title_page_category{
-        bottom: -40px;
     }
     .wp_title_page_category_left{
         font-size: 60px;
@@ -739,9 +736,9 @@
     .content_header{
         position: relative;
     }
-    .background_header > img {
+    /*.background_header > img {
         height: 470px;
-    }
+    }*/
     .wrapper_content_header{
         flex-wrap: wrap;
     }
@@ -1114,9 +1111,9 @@
     #main_home{
         overflow-x: hidden;
     }
-    .background_header > img {
+    /*.background_header > img {
         height: 300px;
-    }
+    }*/
     .wp_title_page_category{
         flex-wrap: wrap;
     }
@@ -1280,8 +1277,14 @@
     .item_news_small{
         display: none;
     }
+    .background_header_mb{
+        display: block;
+    }
+    .background_header_pc{
+        display: none;
+    }
     .title_page_category{
-        bottom: -65px;
+        top: 100px;
     }
 }
 @media (max-width: 350px){

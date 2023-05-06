@@ -1918,8 +1918,12 @@ li.ng-scope span.c1 {
     position: absolute;
     left: 0;
     width: 100%;
-    bottom: -76px;
+    top: 50%;
     z-index: 999;
+}
+.background_header_pc{
+    min-height: 332px;
+    object-fit: cover;
 }
 .wp_title_page_category {
     display: flex;
@@ -2236,9 +2240,9 @@ li.ng-scope span.c1 {
 .right_wp_main_category .btn_view_product{
     margin-top: 0;
 } 
-.bg_breadcrumb > img{
+/*.bg_breadcrumb > img{
     height: 450px;
-}
+}*/
 .btn_drop_filter{
     display: none;
 }
@@ -3050,4 +3054,7 @@ li.ng-scope span.c1 {
 }
 .list_tab_product .swiper-button-next, .list_tab_product .swiper-button-prev{
     top: 35% !important;
+}
+.background_header_mb{
+    display: none;
 }
