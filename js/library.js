@@ -231,8 +231,8 @@ $(".qtybutton").on("click", function() {
         $button.parent().find("input").val(newVal);
     });
 var swiper = new Swiper(".slider_products_related", {
-  slidesPerView: 4,
-  spaceBetween: 54,
+  slidesPerView: 2,
+  spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -244,23 +244,23 @@ var swiper = new Swiper(".slider_products_related", {
       spaceBetween: 10,
     },
     991: {
-      slidesPerView: 2,
-       spaceBetween: 10,
+      slidesPerView: 4,
+       spaceBetween: 54,
     },
   },
 });
 var swiper = new Swiper(".list_img_des", {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 16,
   loop:true,
   breakpoints: {
     767: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 12,
     },
     991: {
-      slidesPerView: 2,
-       spaceBetween: 10,
+      slidesPerView: 3,
+       spaceBetween: 16,
     },
   },
 });

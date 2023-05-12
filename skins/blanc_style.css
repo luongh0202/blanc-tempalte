@@ -934,6 +934,10 @@ li.ng-scope span.c1 {
 .location_ft{
     margin-bottom: 19px;
 }
+.location_ft a{
+    font-weight: 500;
+    color: #4F525D;
+}
 .location_ft h4{
     font-size: 14px;
     line-height: 19.12px;

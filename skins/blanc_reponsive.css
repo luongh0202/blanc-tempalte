@@ -370,9 +370,9 @@
     .btn_khampha, .btn_xemvideo{
         width: 130px;
     }
-    /*.background_header > img{
-        min-height: 300px;
-    }*/
+    .background_header > img{
+        min-height: 440px;
+    }
     .item_slider_bisd {
         max-width: 260px;
     }
@@ -1285,6 +1285,11 @@
     }
     .title_page_category{
         top: 100px;
+    }
+    .background_header > img{
+        min-height: 550px;
+        width: 100%;
+        object-fit: cover;
     }
 }
 @media (max-width: 350px){
