@@ -72,6 +72,15 @@
     .img_smal_decor{
         right: 15px;
     }
+    .content_sec_draw h2{
+        font-size: 30px;
+    }
+    .wrapper_Sec_draw{
+        padding: 85px 10px 76px 111px;
+    }
+    .sec_draw_page_child .wrapper_Sec_draw {
+        padding: 120px 10px 76px 111px;
+    }
 }
 @media (min-width: 1550px) and (max-width: 1700px){
     .decor_line_bg img{
@@ -709,6 +718,82 @@
         width: 100%;
         float: inherit;
     }
+    .content_banner_top_page_child{
+        text-align: center;
+    }
+    .content_banner_top_page_child h1 {
+        font-size: 44px;
+        line-height: 67.42px;
+    }
+    .content_banner_top_page_child p {
+        line-height: 23.78px;
+        font-size: 20px;
+        white-space: nowrap;
+    }
+    .content_banner_top_page_child{
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .row_about_blanc {
+        padding: 0;
+    }
+    .content_row_about_blanc h3{
+        line-height: 19.18px;
+    font-size: 24px;
+    }
+    .content_row_about_blanc p{
+        font-size: 14px;
+    }
+    .title_sec_draw_page_child h2{
+        font-size: 38px;
+    }
+    .wrapper_Sec_draw {
+        padding: 65px 30px 76px 30px !important;
+    }
+    .intro_tuyendung{
+        padding: 0;
+    }
+    .item_tuyendung{
+        width: 100%;
+        margin: 14px 0 0 0;
+    }
+    .wp_list_item_tuyendung{
+        margin: 0;
+    }
+    .content_intro_tuyendung{
+        padding-left: 0;
+    }
+    .img_intro_tuyendung img{
+        margin-bottom: 41px;
+    }
+    .intro_tuyendung{
+        margin-bottom: 70px;
+    }
+    .content_info_item_tuyendung img{
+        display: none;
+    }
+    .item_tuyendung{
+        padding: 21px 10px;
+    }
+    .box_apply{
+        margin-top: 30px;
+    }
+    .list_tab_news ul li {
+        margin: 0 10px;
+    }
+    .list_tab_news ul li a{
+        font-size: 14px;
+    }
+    .list_item_page_news{
+        --spacing: 60px;
+        --columns: 2;
+    }
+    .related_posts{
+        margin-top: 50px;
+    }
+    .box_store{
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 800px){
     .header_tab_product_page h3{
@@ -1295,6 +1380,116 @@
         min-height: inherit;
         width: auto;
     }
+    .img_banner_top_page_child img{
+        min-height: 370px;
+        object-fit: cover;
+    }
+    .banner_top_page_child .container{
+        padding: 0;
+    }
+    .header_about_us{
+        position: absolute !important;
+    }
+    .header_about_us.header-top-page-child #trigger-mobile i{
+        color: #fff;
+    }
+    .header_about_us .logo_page_child img{
+        filter: invert(1);
+    }
+    .content_banner_top_page_child h1{
+        font-size: 64px;
+        line-height: 67.42px;
+    }
+    .content_banner_top_page_child p{
+        line-height: 32.78px;
+        font-size: 24px;
+        white-space: pre-wrap;
+    }
+    .content_banner_top_page_child{
+        width: 80%;
+        top: 60%;
+    }
+    .row_about_blanc .col-lg-7{
+        order: 1;
+    }
+    .row_about_blanc .col-lg-5{
+        order: 2;
+    }
+    .content_row_about_blanc{
+        margin-bottom: 70px;
+    }
+    .row_about_blanc:last-child{
+        margin-top: 80px;
+    }
+    .row_about_blanc:last-child p{
+        margin-bottom: 0;
+    }
+    .wrapper_Sec_draw {
+        padding: 207px 0 49px 0 !important;
+    }
+    .title_sec_draw_page_child{
+        display: none;
+    }
+    .sec_about_blanc{
+        padding: 75px 0 50px 0;
+    }
+    .title_sec_details_tuyendung h1{
+        font-size: 40px;
+        line-height: 54.64px;
+        font-weight: 700;
+    }
+    .title_sec_details_tuyendung p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .box_apply a{
+        align-items: flex-start;
+    }
+    .list_tab_news ul li {
+        margin: 0 30px;
+    }
+    .list_tab_news ul li a{
+        font-size: 16px;
+    }
+    .list_item_page_news{
+        --spacing: 15px;
+        --columns: 1;
+    }
+    .breadcrumb_news{
+        display: block;
+    }
+    .sec_page_news .container{
+        padding: 0;
+    }
+    .list_tab_news ul{
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+    .list_tab_news ul{
+        justify-content: inherit;
+    }
+    .list_item_page_news{
+        padding: 0 15px;
+    }
+    .content_details_news h1{
+        font-size: 36px;
+        line-height: 49.18px;
+    }
+    .content_item_related_posts{
+        font-size: 16px;
+    }
+    .box_store{
+        margin-bottom: 30px;
+    }
+    .img_store img{
+        height: 260px;
+    }
+    .sec_page_store{
+        margin-bottom: 300px;
+    }
+    .slider_img_store .swiper-button-next, .slider_img_store .swiper-button-prev{
+        display: block;
+    }
 }
 @media (max-width: 350px){
     .left_wp_main_category{
@@ -1306,6 +1501,31 @@
         font-size: 30px;
         line-height: 40.98px;
         padding-top: 12px;
+    }
+    .title_sec_page_tuyendung h1{
+        font-size: 44px;
+        line-height: 67.42px;
+    }
+    .title_sec_details_tuyendung h1{
+        font-size: 30px;
+        line-height: 44.64px;
+        font-weight: 700;
+    }
+    .title_sec_details_tuyendung p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .question_tuyendung h3{
+        font-size: 20px;
+    }
+    .question_tuyendung ul li{
+        font-size: 16px;
+    }
+    .content_item_page_news h3 {
+        font-size: 20px;
+        line-height: 22.78px;
+        font-weight: 600;
+        margin-bottom: 4px;
     }
 }
 @media (min-width: 450px) and (max-width: 500px){

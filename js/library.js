@@ -264,3 +264,21 @@ var swiper = new Swiper(".list_img_des", {
     },
   },
 });
+var swiper = new Swiper(".slider_img_store", {
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  loop: true,
+  breakpoints: {
+    767: {
+      slidesPerView: 1,
+      spaceBetween: 12,
+    },
+    991: {
+      slidesPerView: 1,
+       spaceBetween: 16,
+    },
+  },
+});
