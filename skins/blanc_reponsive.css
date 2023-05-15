@@ -81,6 +81,9 @@
     .sec_draw_page_child .wrapper_Sec_draw {
         padding: 120px 10px 76px 111px;
     }
+    .box_login{
+        right: 10%;
+    }
 }
 @media (min-width: 1550px) and (max-width: 1700px){
     .decor_line_bg img{
@@ -186,6 +189,9 @@
         position: absolute;
         left: 21px;
     }*/
+    .list_product_like {
+        --columns: 3;
+    }
 }
 @media (max-width: 1430px){
     .sec_contact{
@@ -239,6 +245,9 @@
     .custom_swipper_2 {
         width: calc((100% - 420px)/3) !important;
     }
+    .wp_list_endow{
+        --columns: 2;
+    }
 }
 @media (max-width: 1200px){
     .menu_header ul li a{
@@ -246,6 +255,9 @@
     }
     .content_product_tab a{
         font-size: 18px;
+    }
+    .list_endow{
+        padding: 0;
     }
 }
 @media (max-width: 1200px){
@@ -295,6 +307,14 @@
     .location_ft p{
         font-size: 12px;
     }
+    .list_tab_status_order ul li{
+        margin-right: 20px;
+    }
+}
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 100%;
+}
 }
 @media (max-width: 1199px){
     /*.background_header > img {
@@ -794,7 +814,45 @@
     .box_store{
         margin-bottom: 30px;
     }
+    .left_wp_main_dashboard_user{
+        display: none;
+    }
+    .right_wp_main_dashboard_user{
+        width: 100%;
+        margin-left: 0;
+    }
+    .list_tab_status_order ul li{
+        margin-right: 20px;
+    }
+    .breadcrumb_news{
+        background: #fff;
+    }
+    .header-top-page-child{
+        background: #fff;
+    }
+    .main_dashboard_user{
+        padding-top: 40px;
+    }
+    .right_top_item_order_dashboard{
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .status_item_order_dashboard{
+        margin-left: 0;
+    }
+    .body_account_mobie .left_wp_main_dashboard_user{
+        display: block;
+    }
+    .box_login{
+        right: inherit;
+        transform: translate(-50%, -50%);
+        left: 50%;
+    }
+    .body_login .header-top-page-child #trigger-mobile{
+        margin-top: 0;
+    }
 }
+/*end 991*/
 @media (max-width: 800px){
     .header_tab_product_page h3{
         font-size: 18px;
@@ -1490,7 +1548,77 @@
     .slider_img_store .swiper-button-next, .slider_img_store .swiper-button-prev{
         display: block;
     }
+    .list_tab_status_order ul li{
+        margin: 0 5px;
+    }
+    .list_tab_status_order ul li a{
+        padding: 18px 20px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .breadcrumb_news{
+        background: #fff;
+    }
+    .header-top-page-child{
+        background: #fff;
+    }
+    .list_tab_status_order{
+        padding: 0;
+    }
+    .list_tab_status_order ul{
+        overflow-x: auto;
+    }
+    .main_dashboard_user{
+        padding-top: 40px;
+    }
+    .row_form_info_user input{
+        width: 100%;
+    }
+    .row_change_pass input{
+        width: 100%;
+    }
+    .ip_row_change_pass span{
+        left: inherit;
+        right: 10px;
+    }
+    .list_product_like {
+        --columns: 2;
+    }
+    .wp_list_endow {
+        flex-wrap: nowrap;
+        justify-content: inherit;
+        white-space: nowrap;
+    }
+    .box_endow{
+        width: 280px;
+        height: 340px;
+    }
+    .row_dk_ql p{
+        width: 100%;
+        white-space: pre-wrap;
+    }
+    .wp_list_endow{
+        width: 1460px;
+    }
+    .scroll_mb_list_endow{
+        overflow-x: auto ;
+    }
+    .sec_page_login{
+        background: #fff;
+        height: auto;
+    }
+    .box_login{
+        position: relative;
+        width: 100%;
+        top: inherit;
+        left: inherit;
+        transform: inherit;
+    }
+    .back_mobie{
+        display: block;
+    }
 }
+/*end 767*/
 @media (max-width: 350px){
     .left_wp_main_category{
         width: 100%;
