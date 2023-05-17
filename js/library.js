@@ -292,3 +292,78 @@ $(".toggle-password").click(function() {
     input.attr("type", "password");
   }
 });
+// end
+$(function(){
+  function validateEmail(email) {
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        }
+  
+  $(document).on('click', '#register_but', function () {
+            var password = $('#password_reg').val();
+            var password_rep = $('#password_dup_reg').val();
+        
+            if(password != password_rep){
+                $('.hidden-error-block').html('The entered passwords do not match').css('color', 'red');
+                return false;
+            }
+            else if(password.length < 8){
+                $('.hidden-error-block').html('Password does not match the requirements').css('color', 'red');
+                return false;
+            }
+
+            else if( (password == password_rep) && (password.length > 6) && (password.match(/\d/)) && (password.match(/[A-Z]/)) && (password.match(/[A-z]/)) ){
+                 $('.hidden-error-block').html('Good').css('color', 'green');
+            }else{
+                $('.hidden-error-block').html('Password does not match the requirements').css('color', 'red');
+            }
+        });
+  
+  $('#password_dup_reg').keyup(function () {
+        var pas = $('#password_reg').val();
+        var con_pas = $(this).val();
+        if(pas === con_pas){
+            $('.register_inp').css('border-color', 'seagreen');
+        }else{
+            $('.register_inp').css('border-color', 'red');
+        }
+    });
+    $('#password_reg').keyup(function () {
+        var pswd = $('#password_reg').val();
+        if ( pswd.length < 6 ) {
+            $('#length').removeClass('valid').addClass('invalid');
+        } else {
+            $('#length').removeClass('invalid').addClass('valid');
+        }
+        //validate letter
+        if ( pswd.match(/[A-z]/) ) {
+            $('#letter').removeClass('invalid').addClass('valid');
+        } else {
+            $('#letter').removeClass('valid').addClass('invalid');
+        }
+    }).focus(function() {
+        $('#pswd_info').show(500);
+    }).blur(function() {
+        $('#pswd_info').hide(500);
+    });
+});
+
+// end
+$(".forgot_box_login a").click(function(){
+  $(".wp_box_login").hide();
+});
+$(".forgot_box_login a").click(function(){
+  $(".wp_forgot_pass").show();
+});
+$(".back_forgot").click(function(){
+  $(".wp_forgot_pass").hide();
+});
+$(".back_forgot").click(function(){
+  $(".wp_box_login").show();
+});
+$(".chuacotk-forgot a").click(function(){
+  $(".wp_forgot_pass").hide();
+});
+$(".chuacotk-forgot a").click(function(){
+  $(".wp_box_login").show();
+});

@@ -67,42 +67,64 @@
     <main class="main_page_child">
         <section class="sec_page_login">
             <div class="box_login">
-                <div class="back_mobie">
-                    <a href="#"><img src="images/arrow-left 1.png" alt=""></a>
+                <div class="wp_box_login">
+                    <div class="back_mobie">
+                        <a href="#"><img src="images/arrow-left 1.png" alt=""></a>
+                    </div>
+                    <h2>Đăng nhập</h2>
+                    <form>
+                        <div class="row_form_login">
+                            <label>Email</label>
+                            <input type="text" name="" value="abc@gmail.com">
+                        </div>
+                        <div class="row_form_login">
+                            <label>Mật khẩu cũ</label>
+                            <div class="ip_row_change_pass">
+                                <input id="password-old" type="password" class="form-control" name="password" value="secret">
+                                <span toggle="#password-old" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                            </div>
+                        </div>
+                        <div class="forgot_box_login">
+                            <a href="#">Quên mật khẩu?</a>
+                        </div>
+                        <div class="btn_login">
+                            <button>Đăng nhập</button>
+                        </div>
+                        <div class="or_login">
+                            hoặc
+                        </div>
+                        <div class="group_login_soc">
+                            <div class="btn_login_soc">
+                                <button><img src="images/logo-facebook 1.png" alt="">Đăng nhập qua Facebook</button>
+                            </div>
+                            <div class="btn_login_soc">
+                                <button><img src="images/google 1.png" alt="">Đăng nhập qua Google</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="chuacotk">
+                        Chưa có tài khoản? <a href="#">Đăng ký tại đây!</a>
+                    </div>
                 </div>
-                <h2>Đăng nhập</h2>
-                <form>
-                    <div class="row_form_login">
-                        <label>Email</label>
-                        <input type="text" name="" value="abc@gmail.com">
+                <div class="wp_forgot_pass">
+                    <div class="back_mobie back_forgot">
+                        <a href="#"><img src="images/arrow-left 1.png" alt=""></a>
                     </div>
-                    <div class="row_form_login">
-                        <label>Mật khẩu cũ</label>
-                        <div class="ip_row_change_pass">
-                            <input id="password-old" type="password" class="form-control" name="password" value="secret">
-                            <span toggle="#password-old" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                    <h2>Quên mật khẩu</h2>
+                    <p>Vui lòng nhập địa chỉ email đã đăng ký của bạn. <br>Chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu.</p>
+                    <form>
+                        <div class="row_form_login">
+                            <label>Nhập Email đăng nhập</label>
+                            <input type="text" name="" value="abc@gmail.com">
                         </div>
-                    </div>
-                    <div class="forgot_box_login">
-                        <a href="#">Quên mật khẩu?</a>
-                    </div>
-                    <div class="btn_login">
-                        <button>Đăng nhập</button>
-                    </div>
-                    <div class="or_login">
-                        hoặc
-                    </div>
-                    <div class="group_login_soc">
-                        <div class="btn_login_soc">
-                            <button><img src="images/logo-facebook 1.png" alt="">Đăng nhập qua Facebook</button>
+                        
+                        <div class="btn_login">
+                            <button>Gửi</button>
                         </div>
-                        <div class="btn_login_soc">
-                            <button><img src="images/google 1.png" alt="">Đăng nhập qua Google</button>
-                        </div>
+                    </form>
+                    <div class="chuacotk chuacotk-forgot">
+                        Đã có tài khoản? <a href="#"> Đăng nhập tại đây!</a>
                     </div>
-                </form>
-                <div class="chuacotk">
-                    Chưa có tài khoản? <a href="#">Đăng ký tại đây!</a>
                 </div>
             </div>
         </section>

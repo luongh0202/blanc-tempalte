@@ -2,7 +2,7 @@
 @media (min-width: 1200px){
     .container {
         width: 100%;
-        max-width: 1470px;
+        max-width: 1470px !important;
     }
 }
 @media (min-width: 1200px){
@@ -311,7 +311,7 @@
         margin-right: 20px;
     }
 }
-@media (min-width: 576px){
+@media (min-width: 576px) and (max-width: 991px){
 .container, .container-sm {
     max-width: 100%;
 }
@@ -850,6 +850,15 @@
     }
     .body_login .header-top-page-child #trigger-mobile{
         margin-top: 0;
+    }
+    #Modal_video .modal-dialog{
+        position: relative;
+        left: inherit;
+        top: inherit;
+        transform: inherit;
+        height: 600px;
+        max-width: 100%;
+        width: calc(100% - 50px);
     }
 }
 /*end 991*/
@@ -1616,6 +1625,9 @@
     }
     .back_mobie{
         display: block;
+    }
+    #Modal_video .modal-dialog{
+        height: 350px;
     }
 }
 /*end 767*/
