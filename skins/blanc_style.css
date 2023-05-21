@@ -2581,6 +2581,10 @@ li.ng-scope span.c1 {
     font-weight: 600;
     color: #4F525D;
 }
+.left_wrapper_Speci_product p{
+    display: flex;
+    justify-content: space-between;
+}
 .description_detail_product h2{
     font-weight: 700;
     font-size: 20px;
@@ -2680,6 +2684,12 @@ li.ng-scope span.c1 {
 .other_infor > div{
     padding: 0 90px;
     display: flex;
+}
+.other_infor > div > div{
+    width: 50%;
+}
+.other_infor > div > ul{
+    width: 50%;
 }
 .other_infor ul:first-child li{
     line-height: 27.32px;
