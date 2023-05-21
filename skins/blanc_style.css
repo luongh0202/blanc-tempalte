@@ -1950,9 +1950,6 @@ li.ng-scope span.c1 {
     position: relative;
     transform: translateX(0);
 }
-.main_page_category{
-    padding-top: 100px;
-}
 .header_main_page_category {
     display: flex;
     justify-content: space-between;
