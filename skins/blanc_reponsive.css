@@ -1629,6 +1629,12 @@
     #Modal_video .modal-dialog{
         height: 350px;
     }
+    .other_infor > div > div {
+    width: 100%;
+}
+.other_infor > div > ul {
+    width: 100%;
+}
 }
 /*end 767*/
 @media (max-width: 350px){
