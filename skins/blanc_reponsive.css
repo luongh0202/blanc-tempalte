@@ -1635,6 +1635,10 @@
 .other_infor > div > ul {
     width: 100%;
 }
+.sec_products_related h2{
+    padding: 0;
+    text-align: center;
+}
 }
 /*end 767*/
 @media (max-width: 350px){
