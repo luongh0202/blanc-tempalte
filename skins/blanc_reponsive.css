@@ -860,6 +860,9 @@
         max-width: 100%;
         width: calc(100% - 50px);
     }
+    .background_header{
+        overflow-x: hidden;
+    }
 }
 /*end 991*/
 @media (max-width: 800px){
@@ -902,7 +905,7 @@
     }
     .decor_light_bg{
 
-        width: 400%;
+        width: 100%;
     }
     .box_img_slider_decor:after{
         width: 72px;
@@ -1126,6 +1129,10 @@
         white-space: nowrap;
         flex-wrap: nowrap;
         overflow-x: auto;
+    }
+    .right_title_tab_sec_product .nav::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
     }
     .nav-item{
         margin: 0 25px;
