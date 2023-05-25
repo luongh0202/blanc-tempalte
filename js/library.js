@@ -201,6 +201,10 @@ $(document).ready(function(){
         spaceBetween: 10,
         slidesPerView: 5,
         freeMode: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
         loop: true,
       });
       var swiper2 = new Swiper(".pro_big", {

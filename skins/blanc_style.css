@@ -2371,6 +2371,10 @@ li.ng-scope span.c1 {
     transform: translate(-50%,-50%);
     z-index: 10;
 }
+.btn_play img{
+     width: 30px !important;
+    height: 30px !important;
+}
 .pro_small img{
     height: 130px;
     object-fit: cover;
