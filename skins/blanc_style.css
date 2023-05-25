@@ -2324,6 +2324,8 @@ li.ng-scope span.c1 {
 }
 .image_details_pro img{
     width: 100%;
+    max-height: 500px;
+    object-fit: cover;
 }
 .image_details_pro .swiper-pagination-fraction{
     position: absolute;
@@ -2368,6 +2370,10 @@ li.ng-scope span.c1 {
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 10;
+}
+.pro_small img{
+    height: 130px;
+    object-fit: cover;
 }
 .pro_small .swiper-slide{
     cursor: pointer;
@@ -4294,4 +4300,63 @@ body.body_account_mobie{
     align-items: center;
     justify-content: center;
     opacity: 1;
+}
+.wp_sec_draw{
+    position: relative;
+}
+.btn_draw{
+    position: absolute;
+    top: 65%;
+    left: 8%;
+}
+.btn_draw a {
+  z-index: 1;
+  position: relative;
+  color: white;
+  padding: 9px 26px;
+  outline: none;
+  border: none;
+  background-color: #B18979;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: all .5s;
+  display: inline-block;
+}
+.btn_draw a:hover{
+    background: #C09972;
+}
+.img_draw_mb{
+    display: none;
+}
+.btn_quality a{
+    z-index: 1;
+  position: relative;
+  color: white;
+  padding: 9px 26px;
+  outline: none;
+  border: none;
+  background-color: #B18979;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: all .5s;
+  display: inline-block;
+}
+.btn_quality a:hover{
+    background: #C09972;
+}
+.btn_quality{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.wrapper_quality{
+    position: relative;
+}
+.img_quality_mb{
+    display: none;
 }
