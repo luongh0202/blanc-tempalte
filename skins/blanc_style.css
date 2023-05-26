@@ -199,6 +199,9 @@ background: #fff;}
     background: #3D2C28;
     padding: 15px 0;
 }
+.image_details_pro {
+    position: relative;
+}
 .swiper-button-next, .swiper-button-prev{
     width: 40px;
     height: 40px;
@@ -211,7 +214,18 @@ background: #fff;}
     border: 1px solid #E8D3B8;
     transform: translateY(-50%);
     margin-top: 0;
-
+}
+.image_details_pro .swiper-button-next {
+    right: -20px;
+    left: auto;
+    bottom: 20px;
+    top: auto;
+}
+.image_details_pro .swiper-button-prev {
+    left: -20px;
+    right: auto;
+    bottom: 20px;
+    top: auto;
 }
 .swiper-button-next:hover, .swiper-button-prev:hover{
     background: #B18979;
